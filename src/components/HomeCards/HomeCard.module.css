@@ -1,0 +1,55 @@
+.cardContainer {
+    background-color: hsl(51, 54%, 91%);
+    height: 450px;
+    width: 1200px;
+    display:flex;
+    gap: 100px;
+}
+.cardLeft{
+    margin: 25px 0px 25px 50px;
+}
+.cardRight {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+.image {
+    height: 380px;
+}
+.title{
+  color: #c42235;
+  font-size: 18px;
+  margin:0
+}
+.header{
+    font-family: "Jellee";
+    font-size: 40px;
+    margin:0;
+}
+.desc{
+    font-size:18px;
+    margin-right: 20px;
+}
+.btnOrder{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    border:none;
+    background-color: #d7263a;
+    color: white;
+    font-family: "Jellee";
+    font-size: 18px;
+}
+.btnOrder:hover{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    border:none;
+    background-color: #931a28;
+    color: white;
+    font-family: "Jellee";
+    font-size: 18px;
+    transition: 0.3s
+}

@@ -1,0 +1,24 @@
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px
+}
+.footerContainer .logo{
+    height: 100px;
+}
+.footerContainer li {
+    list-style-type: none;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.footerContainer li:hover {
+    list-style-type: none;
+    margin-bottom:20px;
+    color:red;
+    transition: 0.3s;
+}
+.footerContainer p {
+    margin-left: 40px;
+    font-weight: bold;
+}

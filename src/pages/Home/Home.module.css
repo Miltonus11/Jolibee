@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Jellee";
+    src: local("Jellee"),
+    url(../../assets/fonts/jellee/Jellee-Roman.ttf) format("truetype");
+}
+.heroSection {
+    display:flex;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.orderButton:hover {
+    background-color: hsl(42, 66%, 52%);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+    width: 150px;
+    border-radius:50px;
+    transition: 0.3s;
+}
+.customBtn{
+    margin-top: 10px;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #efbb40;
+    font-weight: bold;
+    font-size: 20px;
+}
+.customBtn:hover {
+    margin-top: 10px;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(42, 66%, 52%);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.customBtnOrder{
+    margin-top: 10px;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #d7263a;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.customBtnOrder:hover{
+    transition: 0.3s;
+    margin-top: 10px;
+    height: 60px;
+    width: 150px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(353, 74%, 39%);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Jellee{
+    font-size: 60px;
+    font-family: "Jellee";
+    margin:0px 0px 30px 0px;
+}
+.heroContainer{
+    display: flex;
+    gap: 10px;
+}
+.HomeCardSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px
+}

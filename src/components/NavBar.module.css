@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Jellee";
+    src: local("Jellee"),
+    url(../assets/fonts/jellee/Jellee-Roman.ttf) format("truetype");
+}
+
+.mainHeader {
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+.links {
+    font-size: 23px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'BetM';
+    transition: 0.3s;
+}
+
+.links:hover{
+    font-size: 23px;
+    color: red;
+    font-family: 'BetM';
+    transition: 20ms;
+    transition: 0.2s;
+}
+.orderNowContainer {
+    background-color: #d7263a;
+    font-size: 18;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    font-family: 'Jellee';
+    font-weight: bold;
+    color: white;
+}
+.orderHeader {
+    font-family: "BetM";
+    font-size: 22px;
+}
+.orderButton {
+    background-color: #efbb40;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'BetMMedium';
+    border-radius: 10px;
+    border-style: none;
+    width: 150px;
+    border-radius:50px;
+
+}
+.orderButton:hover {
+    background-color: hsl(42, 66%, 52%);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-style: none;
+    width: 150px;
+    border-radius:50px;
+    transition: 0.3s;
+}

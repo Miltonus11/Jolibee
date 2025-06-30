@@ -1,0 +1,40 @@
+.orderTitle {
+    text-align: center;
+    font-family: "Jellee";
+    font-size: 30px;
+}
+.noDisplayText {
+    font-size: 40px;
+    font-family: "Jellee";
+    text-align: center;
+}
+.orderCard{
+    background-color: rgb(232, 232, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    
+}
+.orderContainer{
+    display: grid;
+    gap: 80px;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+.btnClear{
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(42, 66%, 57%);
+    font-family: "Jellee";
+    font-size: 20px;
+    color: rgb(0, 0, 0)
+}
+
+.btnClear:hover{
+    background-color: hsl(42, 66%, 37%);
+    transition: 0.3s;
+}

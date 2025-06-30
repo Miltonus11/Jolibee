@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Jellee";
+    src: local("Jellee"),
+    url(./assets/fonts/jellee/Jellee-Roman.ttf) format("truetype");
+}
+@font-face {
+    font-family: "BetM";
+    src: local("BetM"),
+    url(./assets/fonts/betm/BetmSemiLight.otf) format("opentype");
+}
+@font-face {
+    font-family: "BetMMedium";
+    src: local("BetMMedium"),
+    url(./assets/fonts/betm/BetmMedium.otf) format("opentype");
+}
+p, li{
+    font-family: 'Arial';
+}
+body {
+    margin: 0
+}

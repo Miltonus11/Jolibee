@@ -1,0 +1,10 @@
+.foodContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 400px 30px 400px;
+}
+.menuHeader{
+    text-align: center;
+    font-family: 'Jellee';
+    font-size: 40px;
+}
