@@ -21,7 +21,9 @@ const CartItems = () => {
                     </div>
                 ))}
                 </div>
-                
+                <div style={{display:"flex", justifyContent:"center"}}>
+                    <p style={{fontFamily:'Jellee', fontSize: 25}}> Total Price: {cartItems.reduce((total, item) => total + item.price, 0)}</p>
+                </div>
                 <div style={{display:"flex", justifyContent:"center", marginTop: 20}}>
                 {/* <button className={styles.btnClear} onClick={clearCart}> Proceed to Check Out</button> */}
                 <button className={styles.btnClear} onClick={clearCart}> Clear Cart</button>
