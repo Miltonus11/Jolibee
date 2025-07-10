@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import MenuCard from "../../components/MenuCard/MenuCard";
 import {useCart} from '../../hooks/CartProvider'
 import styles from './CartItems.module.css'
 import { CartItemCart } from "../../components/CartItemCard/CartItemCard";
 const CartItems = () => {
     const {cartItems, clearCart} = useCart();
-    const [totalPrice, setTotalPrice] = useState(1);
+    
     if (cartItems.length > 0) {
         return(
             <>
@@ -17,7 +17,7 @@ const CartItems = () => {
                         <img src={item.image}/>
                         <p style={{fontFamily:"Jellee", fontSize: 18}}> {item.productName}</p>
                         <p> Quanity: {item.quantity}</p>
-                        <p> Total Price: {totalPrice}</p>
+                        <p style={{fontWeight:'bold'}}> Total Price: {item.price}</p>
                     </div>
                 ))}
                 </div>

@@ -25,15 +25,15 @@ export const CartProvider = ({children}) => {
         }
     },[cartItems, hasLoadedCart])
 
-    const addToCart = (product,quantity) => {
+    const addToCart = (product,quantity,totalPrice) => {
         setCartItems((prevItems) => {
             const existingItem = prevItems.find((item)=> item.id === product.id);
             if (existingItem) {
                 return prevItems.map((item) =>
-                item.id === product.id ? {...item, quantity: item.quantity + quantity} : item
+                item.id === product.id ? {...item, quantity: item.quantity + quantity, price: item.price + totalPrice} : item
                 )
             } else {
-                return [...prevItems, { ...product, quantity: quantity }];
+                return [...prevItems, { ...product, quantity: quantity, price: totalPrice }];
             }
         })
     }
